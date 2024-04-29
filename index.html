@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logitech</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="./images/icono.png">
+    </head>
+    <style>
+        *{
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+
+    <body class="w-[100%] h-[100vh]">
+        <nav class="flex justify-around bg-purple-600 bg-opacity-80 h-28">
+            <a href="#">
+                <img class="w-[80px] h-[80px] mt-4" src="./images/logitech (1).png" alt="">
+            </a>
+            <ul class="flex gap-4 text-[0.75rem] text-white mt-12 cursor-pointer lg:text-[1rem] lg:gap-12">
+                <li class="transition-all hover:font-bold">CONOCER MAS</li>
+                <li class="transition-all hover:font-bold">DESCUBRE</li>
+                <li class="transition-all hover:font-bold">EMPRESAS</li>
+                <li class="transition-all hover:font-bold">ASISTENCIA</li>
+            </ul>
+
+            <div class="hidden lg:h-6 lg:flex lg:mt-12 relative">
+                <input type="text" class="rounded-xl bg-gray-500 bg-opacity-40 border border-gray placeholder-gray-200 text-xs pl-2 focus: outline-none shake-rotate" placeholder="Search">
+                <img class="absolute top-[4px] left-[125px] h-[15px]" src="./images/search.png" alt="">
+            </div>
+        </nav>
+
+        <section class=" w-[450px] h-[480px] mt-6 ml-6 rounded-xl bg-gradient-to-r from-fuchsia-400 to-violet-500 lg:ml-[60px] lg:w-[1250px]">
+            <h1 class=" text-white text-center font-bold text-3xl pt-8 lg:text-[2.8rem] lg:pt-24">REUNIONES.STREAMING.</h1>
+            <h1 class=" text-white text-center font-bold text-3xl lg:text-[2.8rem] lg:mt-2">CONTROL.</h1>
+            <p class="text-white text-center mt-8 lg:text-xl">Presentamos MX Brio. Disfruta de video ultra HD 4K nítido con nuestra cámara web más avanzada hasta la fecha. </p>
+            <div class="flex flex-col items-center mt-16 gap-8 font-bold text-sm lg:gap-12 lg:mt-20 lg:flex-row lg:justify-center">
+                <button class=" w-[200px] h-[60px] bg-white transition-all hover:bg-transparent hover:border-solid hover:border-4 hover:border-white hover:text-white">MAS INFORMACION</button>
+                <button class=" w-[200px] h-[60px] bg-white transition-all hover:bg-transparent hover:border-solid hover:border-4 hover:border-white hover:text-white">DESCUBRIR AHORA</button>
+            </div>
+        </section>
+
+        <section class="flex flex-col items-center mt-16 lg:flex-row lg:gap-[4rem]">
+            <div class="flex flex-col lg:w-[400px]">
+                <img data-aos="fade-right" class="w-[400px] h-[400px] ml-10" src="./images/cliente.webp" alt="">
+                <div class="flex flex-col items-start">
+                    <h1 data-aos="fade-left" class="font-bold text-xl mt-6 ml-10">LOS AURICULARES INALAMBRICOS ESENCIALES</h1>
+                    <p data-aos="fade-right" class="text-lg mt-2 ml-10">Usa tecnología inalámbrica y mantente conectado. Disfruta de un excelente audio, micrófonos con cancelación de ruido y libertad de movimiento con Zone 300.</p>
+                    <a class="font-bold mt-2 hover:underline ml-10" href="#">DESCUBRIR AHORA ></a>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:w-[400px] lg:mb-[110px] lg:ml-[50px]">
+                <img data-aos="flip-left" class="w-[400px] h-[400px]" src="./images/mouse.webp" alt="">
+                <div class="flex flex-col items-start">
+                    <h1 data-aos="zoom-in" class="font-bold text-xl mt-6 mr-[150px]">LEVANTATE CON TODO</h1>
+                    <p  data-aos="zoom-in-down" class="text-lg mt-2">con Lift Vertical Ergonomic Mouse</p>
+                    <a data-aos="zoom-in-up" class="font-bold mt-2 hover:underline" href="#">DESCUBRE LIFT ></a>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:w-[400px] lg:mb-[140px]">
+                <img data-aos="fade-up-left" class="w-[400px] h-[400px]" src="./images/audi.webp" alt="">
+                <div class="flex flex-col items-start">
+                    <h1 data-aos="zoom-in" class="font-bold text-xl mt-6">AURICULARES OPTIMIZADOS CON IA</h1>
+                    <p  data-aos="zoom-in-down" class="text-lg mt-2">Para llamadas bidireccionales sin ruido</p>
+                    <a data-aos="zoom-in-up" class="font-bold mt-2 hover:underline" href="#">DESCUBRE ZONE WIRELESS 2 ></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col items-center gap-16 mt-32 lg:flex-row lg:justify-center lg:gap-32">
+            <div class="w-[450px] cursor-pointer">
+                <img class="transition-all hover:scale-105 shake-slow" src="./images/teclado.webp" alt="">
+                <p data-aos="zoom-out" class="text-center mt-4 font-bold lg:text-xl">MOUSE Y TECLADOS</p>
+            </div>
+            <div class="w-[450px] cursor-pointer">
+                <img class="transition-all hover:scale-105 shake-slow" src="./images/camara.webp" alt="">
+                <p data-aos="zoom-out" class="text-center mt-4 font-bold lg:text-xl">STREAMING</p>
+            </div>
+        </section>
+
+        <section class="w-[420px] h-[500px] mt-32 ml-8 bg-[url('./images/mouse2.png')] lg:w-[100%] lg:bg-[url('./images/mouse3.png')] lg:ml-0 lg:h-[440px]">
+            <h1 class="font-bold text-center text-3xl text-white pt-32 lg:text-5xl">ACERCA DE LOGITECH</h1>
+            <p class="text-white text-center mt-4 lg:text-xl lg:mt-8">Con productos vendidos en casi todos los paises del mundo, Logitech es una empresa multimarca que diseña productos que unen a las personas a traves de la musica, los juegos, el video y la computacion.</p>
+            <div class="flex flex-col items-center mt-24 font-bold text-sm lg:mt-16">
+                <button class="w-[250px] h-[60px] bg-white transition-all hover:bg-transparent hover:border-solid hover:border-4 hover:border-white hover:text-white">LA HISTORIA DE LOGITECH</button>
+            </div>
+        </section>
+
+        <footer class="flex justify-between bg-purple-600 lg:justify-evenly">
+                <div class="mt-8 ml-4 flex flex-col gap-6 mb-8">
+                    <h3 class="text-white font-bold">ACERCA DE</h3>
+                    <ul class="flex flex-col gap-2 text-white text-sm">
+                        <li class="hover:underline hover:cursor-pointer">La historia de logitech</li>
+                        <li class="hover:underline hover:cursor-pointer">Empleo</li>
+                        <li class="hover:underline hover:cursor-pointer">Inversores</li>
+                        <li class="hover:underline hover:cursor-pointer">Blog</li>
+                        <li class="hover:underline hover:cursor-pointer">Prensa</li>
+                        <li class="hover:underline hover:cursor-pointer">Contacto</li>
+                    </ul>
+                </div>
+                <div class="mt-8 ml-4 flex flex-col gap-6 lg:flex-row lg:gap-12">
+                    <div class="lg:flex lg:flex-col lg:mr-32">
+                        <h3 class="text-white font-bold">VALORES</h3>
+                        <ul class="flex flex-col gap-2 text-white text-sm lg:mt-8">
+                            <li class="hover:underline hover:cursor-pointer">Impacto social</li>
+                            <li class="hover:underline hover:cursor-pointer">Sostenibilidad</li>
+                            <li class="hover:underline hover:cursor-pointer">Reciclaje</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-white font-bold">CLIENTES</h3>
+                        <p class="text-white text-sm hover:underline hover: cursor-pointer lg:mt-8">Preferencias de correo electronico</p>
+                    </div>
+                </div>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
